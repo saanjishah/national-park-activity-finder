@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/national-park-activity-finder/static/css/main.7b91f3c4.chunk.css",
+    "main.js": "/national-park-activity-finder/static/js/main.ad43a912.chunk.js",
+    "main.js.map": "/national-park-activity-finder/static/js/main.ad43a912.chunk.js.map",
+    "runtime-main.js": "/national-park-activity-finder/static/js/runtime-main.5e5863ed.js",
+    "runtime-main.js.map": "/national-park-activity-finder/static/js/runtime-main.5e5863ed.js.map",
+    "static/css/2.d4115035.chunk.css": "/national-park-activity-finder/static/css/2.d4115035.chunk.css",
+    "static/js/2.3158194c.chunk.js": "/national-park-activity-finder/static/js/2.3158194c.chunk.js",
+    "static/js/2.3158194c.chunk.js.map": "/national-park-activity-finder/static/js/2.3158194c.chunk.js.map",
+    "static/js/3.5e0270f6.chunk.js": "/national-park-activity-finder/static/js/3.5e0270f6.chunk.js",
+    "static/js/3.5e0270f6.chunk.js.map": "/national-park-activity-finder/static/js/3.5e0270f6.chunk.js.map",
+    "index.html": "/national-park-activity-finder/index.html",
+    "static/css/2.d4115035.chunk.css.map": "/national-park-activity-finder/static/css/2.d4115035.chunk.css.map",
+    "static/css/main.7b91f3c4.chunk.css.map": "/national-park-activity-finder/static/css/main.7b91f3c4.chunk.css.map",
+    "static/js/2.3158194c.chunk.js.LICENSE.txt": "/national-park-activity-finder/static/js/2.3158194c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/national-park-activity-finder/static/media/background-image.2ee0cbed.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e5863ed.js",
+    "static/css/2.d4115035.chunk.css",
+    "static/js/2.3158194c.chunk.js",
+    "static/css/main.7b91f3c4.chunk.css",
+    "static/js/main.ad43a912.chunk.js"
+  ]
+}
