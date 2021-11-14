@@ -77,7 +77,7 @@ export default class Form extends Component {
                     </div>
                     <div>
                         <Link to={{
-                            pathname: "/Parks",
+                            pathname: "/national-park-activity-finder/Parks",
                             state: this.state.optionSelected
                         }}>
                             <button className="b1">See National Parks</button>
