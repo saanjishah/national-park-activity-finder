@@ -59,7 +59,6 @@ export default class Card extends Component {
             <div >
                 <div className="Card">
                     <h2>{this.state.parkName}</h2>
-                    <p>{this.state.parkKey}</p>
                     <p>{this.state.parkLocation}</p>
                     <div className="PopUpBackground">
                         <Popup
