@@ -1,0 +1,17 @@
+.dropdown {
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    flex-direction: column;
+  }
+  .footer {
+      background-color: #E8E8F0;
+      /* min-height: screen; */
+  }
+  .caution {
+      text-align: center;
+  }
+

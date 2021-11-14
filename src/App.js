@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Form from './components/Form';
+import CardsPage from './components/CardsPage';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/Parks" component={Parks} />
+      </Switch>
+    </BrowserRouter>
   );
 }
-
 export default App;
+
+const Home = () => {
+  return (
+    <div className="Home">
+      <h1 className="title">National Park Activity Finder</h1>
+      <div >
+        <Form />
+      </div>
+    </div>
+  )
+}
+
+const Parks = (props) => {
+  return (
+    <div>
+      <CardsPage props = {props.location.state}/>    
+    </div>
+  )
+}

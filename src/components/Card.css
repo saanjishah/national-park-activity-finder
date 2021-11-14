@@ -1,0 +1,13 @@
+.Card {
+    margin: auto;
+    text-align: center;
+    color:white;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    width: 70%; 
+    height: 70%;
+    border-radius: 25px;
+    background-color: #82B6AC;
+}

@@ -1,0 +1,90 @@
+.modal {
+    font-size: 22px;
+    text-align: center;
+    background-color: #376CA0;
+    color: #E8E8F0;
+    height: 550px;
+    /* position: fixed; */
+    /* align-content: center;
+    justify-content: center; */
+    margin: auto;
+    width: 850px;
+    /* display: inline-block; */
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .modal > .header {
+    width: 99%;
+    border-bottom: 1px solid #E8E8F0;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #E8E8F0;
+    border-radius: 18px;
+    border: 2px solid #376CA0;
+    color: #376CA0;
+  }
+.button {
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    border-radius: 8px;
+    border: 2px solid #376CA0;
+    background: #E8E8F0;
+}
+.image {
+    align-content: left;
+    justify-content: left;
+    align-self: left;
+    justify-self: left;
+    margin-right: 70%;
+    margin-top: 1%;
+    margin-left: 4%;
+    max-width: 300px;
+    min-height: auto;
+    max-height: 250px;
+}
+.directions {
+    align-content: center;
+    margin-left: 45%;
+    margin-top: -300px;
+    width: 50%;
+    font-size: 18px;
+    height: 150px;
+    position: static;
+}
+.url {
+    margin-top: 18.75%;
+    background-color: #E8E8F0;
+    align-content: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 98.7%;
+    padding: 6px;
+}
